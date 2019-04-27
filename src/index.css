@@ -12,3 +12,45 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
 }
+
+ul {
+list-style-type: none;
+padding: 0;
+display: flex;
+flex-flow: wrap;
+}
+
+li {
+margin: 5px;
+padding: 5px;
+border: 1px solid grey;
+}
+
+li:hover {
+  background: lightgrey;
+  cursor: default;
+}
+
+li:hover .ammatti {
+  /* display: block; */
+  visibility: visible;
+}
+
+li.uusi::after {
+  content: 'uusi';
+  position: relative;
+  background: yellow;
+  border: 1px solid;
+  font-size: 0.6em;
+  font-family: cursive;
+  text-transform: uppercase;
+  padding: 2px 4px;
+  border-radius: 20px;
+  top: 10px;
+  left: 10px;
+}
+.ammatti {
+  font-size: 0.75em;
+  /* display: none; */
+  visibility: collapse;
+}
