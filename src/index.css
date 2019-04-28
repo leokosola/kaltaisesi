@@ -140,6 +140,7 @@ li.uusi::after {
   }
   .yhteensä {
     position: static;
+    margin: 10px 0;
   }
   
 }
