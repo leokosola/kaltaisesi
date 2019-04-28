@@ -13,6 +13,44 @@ code {
     monospace;
 }
 
+.wrapper {
+  max-width: 800px;
+  margin: auto;
+  padding: 20px;
+}
+
+.aloitus {
+  text-align: center;
+}
+
+.interactive {
+  display: flex;
+  flex-direction: column;
+}
+
+.valinnat {
+  margin: 20px 0;
+}
+
+.tulokset {
+  margin: 20px 0;
+  border: 1px dotted #000;
+  padding: 10px;
+}
+
+button {
+  font-size: 14px;
+  color: #000;
+  background: transparent;
+  border-width: 1px;
+  margin: 2px;
+}
+
+h1 {
+  font-size: 40px;
+  color: #0b1cc1;
+}
+
 ul {
 list-style-type: none;
 padding: 0;
@@ -31,26 +69,77 @@ li:hover {
   cursor: default;
 }
 
-li:hover .ammatti {
-  /* display: block; */
-  visibility: visible;
+.invert {
+  color: #fff;
+  background: #000;
+  padding: 0 2px;
 }
 
 li.uusi::after {
   content: 'uusi';
   position: relative;
-  background: yellow;
-  border: 1px solid;
-  font-size: 0.6em;
-  font-family: cursive;
+  background: rgb(253, 255, 117);
+  color: #9c6109;
+  font-size: 0.7em;
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New";
+  font-weight: 600;
   text-transform: uppercase;
   padding: 2px 4px;
   border-radius: 20px;
   top: 10px;
   left: 10px;
+  clip-path: polygon(50% 0, 73% 18%, 100% 0, 100% 100%, 76% 81%, 48% 100%, 24% 81%, 0 100%, 0 0, 23% 17%);
 }
 .ammatti {
   font-size: 0.75em;
-  /* display: none; */
-  visibility: collapse;
+}
+
+.huom {
+  font-size: 0.75em;
+  color: grey;
+  margin-top: -20px;
+}
+
+.passiivinen {
+  border: 1px solid black;
+  background: #fff;
+}
+
+.aktiivinen {
+  background: #000;
+  color: #fff;
+}
+
+.resetBtn {
+  border: 1px solid red;
+}
+
+.yhteensä {
+  position: fixed;
+  bottom: 0;
+  right: 0;
+  margin: 10px;
+  padding: 10px;
+  background: rgb(255, 254, 208);
+  border: 1px solid black;
+}
+
+
+/* Deskari ///////// */
+
+@media only screen and (min-width: 800px) {
+ 
+  .interactive {
+    flex-direction: row;
+  }
+  .valinnat {
+    width: 50%;
+  }
+  .tulokset {
+    width: 50%;
+  }
+  .yhteensä {
+    position: static;
+  }
+  
 }
