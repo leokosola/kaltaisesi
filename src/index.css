@@ -122,6 +122,7 @@ li.uusi::after {
   padding: 10px;
   background: rgb(255, 254, 208);
   border: 1px solid black;
+  z-index: 1;
 }
 
 
