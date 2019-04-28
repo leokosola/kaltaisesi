@@ -5,3 +5,5 @@
 - Vaalipiiri olisi kiinnostava lisätä, mutta toisaalta ehdokkaat voivat asua aivan muualla kuin vaalipiirissään, joten tämä valintana menee hieman ohi aiheen.
 - Kaikki koodi käytännössä tiedostossa index.js. Napit ja tekstihaku omina komponentteinaan. Muu koodi komponentissa App.
 - Asioiden nimeäminen saattoi jäädä hieman suomi-englanti-sekamelskaksi.
+
+Linkki toteutukseen: https://leokosola.github.io/kaltaisesi/
