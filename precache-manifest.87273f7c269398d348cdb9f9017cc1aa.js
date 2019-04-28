@@ -1,19 +1,19 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "114bba50007d30d0ee6d5a519006aba2",
+    "revision": "2dc9f214d8626dd9e675a3e3e5848456",
     "url": "/kaltaisesi/index.html"
   },
   {
-    "revision": "3a2879c1f8e355015849",
-    "url": "/kaltaisesi/static/css/main.024e716c.chunk.css"
+    "revision": "98f46722bc3b66b3c7ab",
+    "url": "/kaltaisesi/static/css/main.51ee6a7b.chunk.css"
   },
   {
     "revision": "caa9a7fa08bf2c0d73b8",
     "url": "/kaltaisesi/static/js/2.f0910273.chunk.js"
   },
   {
-    "revision": "3a2879c1f8e355015849",
-    "url": "/kaltaisesi/static/js/main.c967b70b.chunk.js"
+    "revision": "98f46722bc3b66b3c7ab",
+    "url": "/kaltaisesi/static/js/main.07c797fc.chunk.js"
   },
   {
     "revision": "afc66e028d5afcbcad8a",
