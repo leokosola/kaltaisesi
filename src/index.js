@@ -33,7 +33,7 @@ const App = () => {
   .filter (d => female ? d.gender === 2 : d.gender)
   .filter (d => young ? d.age < 35 : d.age)
   .filter (d => middleAge ? d.age >= 35 && d.age <= 50 : d.age)
-  .filter (d => old ? d.age >= 50 : d.age)
+  .filter (d => old ? d.age > 50 : d.age)
   .filter (d => fin ? d.language === "Suomi" : d.language)
   .filter (d => sve ? d.language === "Ruotsi" : d.language)
   .filter (d => peruskoulu ? d.education === "peruskoulu" : d.education)
