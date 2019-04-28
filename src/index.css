@@ -1,3 +1,5 @@
+/* tags ///// */
+
 body {
   margin: 0;
   padding: 0;
@@ -6,36 +8,6 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-}
-
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
-    monospace;
-}
-
-.wrapper {
-  max-width: 800px;
-  margin: auto;
-  padding: 20px;
-}
-
-.aloitus {
-  text-align: center;
-}
-
-.interactive {
-  display: flex;
-  flex-direction: column;
-}
-
-.valinnat {
-  margin: 20px 0;
-}
-
-.tulokset {
-  margin: 20px 0;
-  border: 1px dotted #000;
-  padding: 10px;
 }
 
 button {
@@ -64,6 +36,53 @@ padding: 5px;
 border: 1px solid grey;
 }
 
+small {
+  display: block;
+  font-size: 0.75em;
+  margin-top: 25px;
+  color: #444;
+}
+
+small::before {
+  content: '*';
+  font-size: 1.6em;
+  color: #0b1cc1;
+  margin-right: 5px;
+}
+
+/* classes ////// */
+
+.wrapper {
+  max-width: 800px;
+  margin: auto;
+  padding: 20px;
+}
+
+.beginning {
+  text-align: center;
+}
+
+.lead {
+  font-size: 1.2em;
+  color: #444;
+  font-weight: 600;
+}
+
+.interactive {
+  display: flex;
+  flex-direction: column;
+}
+
+.selections {
+  margin: 20px 0;
+}
+
+.results {
+  margin: 20px 0;
+  border: 1px dotted #000;
+  padding: 10px;
+}
+
 li:hover {
   background: lightgrey;
   cursor: default;
@@ -90,7 +109,8 @@ li.uusi::after {
   left: 10px;
   clip-path: polygon(50% 0, 73% 18%, 100% 0, 100% 100%, 76% 81%, 48% 100%, 24% 81%, 0 100%, 0 0, 23% 17%);
 }
-.ammatti {
+
+.occupation {
   font-size: 0.75em;
 }
 
@@ -100,21 +120,22 @@ li.uusi::after {
   margin-top: -20px;
 }
 
-.passiivinen {
+.passive {
   border: 1px solid black;
   background: #fff;
 }
 
-.aktiivinen {
+.active {
   background: #000;
   color: #fff;
+  border: 1px solid black;
 }
 
-.resetBtn {
+.resetButton {
   border: 1px solid red;
 }
 
-.yhteensä {
+.total {
   position: fixed;
   bottom: 0;
   right: 0;
@@ -125,21 +146,20 @@ li.uusi::after {
   z-index: 1;
 }
 
-
-/* Deskari ///////// */
+/* desktop ///////// */
 
 @media only screen and (min-width: 800px) {
  
   .interactive {
     flex-direction: row;
   }
-  .valinnat {
+  .selections {
     width: 50%;
   }
-  .tulokset {
+  .results {
     width: 50%;
   }
-  .yhteensä {
+  .total {
     position: static;
     margin: 10px 0;
   }
