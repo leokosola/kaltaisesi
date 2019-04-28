@@ -1,14 +1,14 @@
 {
   "files": {
     "main.css": "/kaltaisesi/static/css/main.51ee6a7b.chunk.css",
-    "main.js": "/kaltaisesi/static/js/main.07c797fc.chunk.js",
-    "main.js.map": "/kaltaisesi/static/js/main.07c797fc.chunk.js.map",
+    "main.js": "/kaltaisesi/static/js/main.18bc1c49.chunk.js",
+    "main.js.map": "/kaltaisesi/static/js/main.18bc1c49.chunk.js.map",
     "runtime~main.js": "/kaltaisesi/static/js/runtime~main.3ac15e84.js",
     "runtime~main.js.map": "/kaltaisesi/static/js/runtime~main.3ac15e84.js.map",
     "static/js/2.f0910273.chunk.js": "/kaltaisesi/static/js/2.f0910273.chunk.js",
     "static/js/2.f0910273.chunk.js.map": "/kaltaisesi/static/js/2.f0910273.chunk.js.map",
     "index.html": "/kaltaisesi/index.html",
-    "precache-manifest.87273f7c269398d348cdb9f9017cc1aa.js": "/kaltaisesi/precache-manifest.87273f7c269398d348cdb9f9017cc1aa.js",
+    "precache-manifest.bf989bcbd767dca9c17575a302a151d4.js": "/kaltaisesi/precache-manifest.bf989bcbd767dca9c17575a302a151d4.js",
     "service-worker.js": "/kaltaisesi/service-worker.js",
     "static/css/main.51ee6a7b.chunk.css.map": "/kaltaisesi/static/css/main.51ee6a7b.chunk.css.map"
   }
